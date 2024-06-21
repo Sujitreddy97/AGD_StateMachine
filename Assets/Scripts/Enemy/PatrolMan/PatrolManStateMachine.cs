@@ -43,7 +43,7 @@ namespace StatePattern.Enemy
             currentState?.OnStateEnter();   
         }
 
-        public void ChangeState(StateMachine.States newState) => ChangeState(States[newState]);
+        public void ChangeState(States newState) => ChangeState(States[newState]);
     }
 }
 
